@@ -7,7 +7,7 @@
     cols: 6,
     rows: 4,
     bgImage: null,  
-    bgOverlay: 0.18,
+    bgOverlay: 0.06,
     bgPosition: '50% 50%',
     settingsOn: false,
     };
@@ -116,7 +116,7 @@ function load() {
 
 function renderBg() {
   const el = document.getElementById('bg-layer');
-  const overlay = state.bgOverlay ?? 0.18;
+  const overlay = state.bgOverlay ?? 0.06;
   document.documentElement.style.setProperty('--bg-overlay', overlay);
   document.getElementById('bg-overlay').value = overlay;
   if (state.bgImage) {
