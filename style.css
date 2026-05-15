@@ -43,7 +43,7 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, var(--bg-overlay, 0.18));
+    background: rgba(0, 0, 0, var(--bg-overlay, 0.06));
 }
 
 #app {
